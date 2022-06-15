@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+canvas#defaultCanvas0 {
+    margin-left: 400px;
+    margin-top: -100px;
+    position: absolute;
+}
+
+body{ 
+    background: linear-gradient(rgba(255, 255, 255, 0.432), rgba(255, 255, 255, 0.518)), url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative; 
+}
+ 
+div#direccion {
+    width: auto;
+    height: 150px;
+    margin-left: 50px
+}
+
+
+div#preguntas {
+    width: 100;
+    height: 100;
+    margin-left: 10px;
+}
+
+div#botones {
+    width: 700px;
+    height: auto;
+    margin-left: 375px;
+    margin-top: 490px;
+    position: absolute;
+}
+
+div#listaMov {
+    margin-top: 20px;
+    width: 220px;
+    height: 640px;
+    position: absolute;
+    background-color: #c6b28dc0;
+    border-radius: 10px;
+    
+}
+
+div#jugar {
+    margin-left: 750px;
+    margin-top:  580px;
+    position: absolute;
+    
+}
+
+div#sigMundo {
+    margin-top: 10px; 
+    margin-left: 900px;
+    
+}
+
+div#estadistica {
+    position: absolute;
+    margin-top: 650px;
+    
+}
+
+
+.titulo-logo{
+    font: oblique bold 280% cursive;
+    margin-top: 10px; 
+    margin-left: 560px;
+}
+
+div#formulario {
+    margin-top: 10px; 
+    margin-left: 900px;
+}

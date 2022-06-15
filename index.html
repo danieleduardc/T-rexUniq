@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>T-rex</title>
+    <style>
+        body {
+            padding: 70px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="margin-top: 10px; margin-left: 10px; font: oblique bold 160% cursive;">Analisis de Algotimos</h3>
+    <span class="titulo-logo">T-rex 🦖​​</span>
+
+    <div id="direccion">
+        <div id="botones">
+
+            <button type="button" class="btn btn-warning" style="background-color: #C6B28D; border-color: #C6B28D " onclick="izquierda(); ">Izquierda ← </button>
+            <button type="button" class="btn btn-warning" style="background-color: #C6B28D; border-color: #C6B28D " onclick="derecha(); ">Derecha → </button>
+            <button type="button" class="btn btn-warning" style="background-color: #C6B28D; border-color: #C6B28D " onclick="arriba(); ">Arriba ↑ </button>
+            <button type="button" class="btn btn-warning" style="background-color: #C6B28D; border-color: #C6B28D " onclick="abajo(); ">Abajo ↓ </button>
+        
+        </div>
+        <div id="sigMundo">
+            <button type="button" class="btn btn-primary" style="background-color: #7F7340 ; border-color: #7F7340 " onclick="siguienteNivel();"> NIVEL>> </button> 
+        </div>
+        <div>
+            <script src="../p5.js "></script>
+            <script src="main.js"></script>
+        </div>
+        <div id="listaMov">
+            <p style="text-align:center"><b>Movimientos</b></p>
+                <p id="listaMovimiento"></p>
+        </div>
+        <div id="jugar">
+            <button type="button" class="btn btn-warning" style="background-color: #DAA738; border-color: #DAA738 " onclick="ejecutar();">JUGAR</button>
+        </div>
+        <div id="formulario">
+            <button type="button" class="btn btn-warning" style="background-color: #8C9DA4; border-color: #8C9DA4 " onclick="redireccion();">TEST Δ</button>
+            <script src="main.js"></script>
+        </div>
+        <div id="estadistica">
+            <button type="button" class="btn btn-primary" style="background-color: #B1542E ; border-color: #B1542E  " onclick="estadisticas()();"> ESTADISTICA ↕ </button> 
+        </div>
+        
+    </div>
+</body>
+
+</html>
