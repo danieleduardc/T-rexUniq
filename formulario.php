@@ -40,6 +40,8 @@
 			<option value=0>↓↓↓→↓↓→→↑↑→→↑→→↓↓</option>
 		</select>
 
+		<h2 style="margin: 4px" >_____________________</h2>	
+
 		<label><b>Ingresa tu nombre:</b></label>
     	<input type="text" name="name" placeholder="Nombre Completo" style="margin: 10px">
 	
